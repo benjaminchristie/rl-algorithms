@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "rl_algorithms_benjaminchristie"
+version = "0.0.1"
+authors = [
+  { name="Benjamin Christie", email="benc00@vt.edu" },
+]
+description = "A collection of RL Algorithms"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Linux",
+]
+dependencies = ['numpy>=2.1.0', 'scipy>=1.14.0', 'torch>=2.4.0']
+
+[project.urls]
+Homepage = "https://github.com/bemjaminchristie/rl-algorithms"
+Issues = "https://github.com/benjmainchristie/rl-algorithms/issues"

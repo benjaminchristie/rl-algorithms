@@ -2,8 +2,13 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from typing import Callable, Tuple
-from models import GaussianNetwork, QNetworkSep, DeterministicNetwork, GaussianNetwork
-from utils.misc import hard_update
+from rl_algorithms_benjaminchristie.algos.models import (
+    GaussianNetwork,
+    QNetworkSep,
+    DeterministicNetwork,
+    GaussianNetwork,
+)
+from rl_algorithms_benjaminchristie.utils.misc import hard_update
 from torch.optim.adam import Adam
 
 

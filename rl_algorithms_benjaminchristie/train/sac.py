@@ -2,9 +2,9 @@ import torch
 import torch.nn.functional as F
 from typing import Callable
 
-from algos.sac import SAC, DiscreteSAC
-from utils.replay_memory import ReplayMemory
-from utils.misc import soft_update
+from rl_algorithms_benjaminchristie.algos.sac import SAC, DiscreteSAC
+from rl_algorithms_benjaminchristie.utils.replay_memory import ReplayMemory
+from rl_algorithms_benjaminchristie.utils.misc import soft_update
 
 
 def update_sac(

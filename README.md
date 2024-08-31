@@ -3,5 +3,5 @@
 To install, run:
 ```
 python -m build
-pip install -e .
+pip install .
 ```

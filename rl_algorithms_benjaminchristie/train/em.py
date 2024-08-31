@@ -2,7 +2,7 @@ import torch
 import numpy as np
 from copy import deepcopy
 
-from utils.misc import es_params
+from rl_algorithms_benjaminchristie.utils.misc import es_params
 
 
 def fitness_shaping(returns):
